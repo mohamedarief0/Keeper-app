@@ -1,9 +1,16 @@
 import React from "react";
+import Header from "./header"
+import Note from "./note"
+import Footer from "./Footer"
+
+
 
 function App() {
   return (
     <div className="App">
-      <h1>hello world</h1>
+      <Header/>
+      <Note/>
+      <Footer/>
     </div>
   );
 }
